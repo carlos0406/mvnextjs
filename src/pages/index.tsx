@@ -16,7 +16,7 @@ export default function Home() {
           backGroundURL="/caminhao.png"
         />
         <Card
-          name="carlos"
+          name="carlos Henrique de Andrade"
           profileURL="/motorista.jpg"
           backGroundURL="/caminhao.png"
         />

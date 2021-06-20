@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
+  flex: 1;
   height: 8rem;
   background: ${props => props.theme.colors.black};
   .header {

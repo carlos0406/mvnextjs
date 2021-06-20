@@ -11,6 +11,7 @@ export default createGlobalStyle`
   
   body{
     font:400 20px Roboto;
+    width: 100vw;
     color:${props => props.theme.colors.brightWhite}
   }
 

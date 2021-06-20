@@ -8,12 +8,23 @@ export const CardContainer = styled.div`
   border: 1px solid ${props => props.theme.colors.white};
   padding-bottom: 2rem;
   border-radius: 1rem;
+  border: 1px solid ${props => props.theme.colors.green};
   @media (max-width: 1800px) {
     width: 18rem;
+  }
+  @media (max-width: 1200px) {
+    font-size: 2rem;
   }
   @media (max-width: 990px) {
     width: 15rem;
   }
+  @media (max-width: 768px) {
+    width: 20rem;
+  }
+  @media (max-width: 680px) {
+    width: 16rem;
+  }
+
   @media (max-width: 576px) {
     width: 100%;
   }
@@ -28,7 +39,12 @@ export const Profile = styled.img`
   height: 8rem;
   border-radius: 50%;
   transform: translateY(-50%);
-  box-shadow: 4px 4px 10px ${props => props.theme.colors.background};
+
+  box-shadow: 1px 1px 4px ${props => props.theme.colors.red};
+  @media (max-width: 1200px) {
+    width: 12rem;
+    height: 12rem;
+  }
   @media (max-width: 576px) {
     width: 10rem;
     height: 10rem;
