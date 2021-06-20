@@ -5,14 +5,18 @@ export default createGlobalStyle`
     margin:0;
     padding: 0;
     box-sizing: "border-box";
-    font-family:Roboto;
    
   
   }
   
   body{
-    
-    background: ${props => props.theme.colors.background};
-    color:${props => props.theme.colors.brightCyan}
+    font:400 20px Roboto;
+    color:${props => props.theme.colors.brightWhite}
   }
+
+  @media(max-width:1080px){
+    html{
+        font-size: 93.75%;  
+    }
+}
 `
